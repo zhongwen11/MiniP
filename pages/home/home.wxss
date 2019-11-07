@@ -1,0 +1,7 @@
+/* pages/home/home.wxss */
+
+.title{
+  color: pink;
+  font-size: 22px;
+  text-align: center;
+}

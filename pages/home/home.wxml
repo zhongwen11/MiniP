@@ -1,2 +1,12 @@
 <!--pages/home/home.wxml-->
-<text class="title">Hello Aliwen小栈</text>
+<!--小程序的数据绑定 {{}} Mustache语法-->
+<view>Hello {{name}}</view>
+<view>我今年：{{age}}</view>
+
+<!-- 列表展示：wx:for -->
+<view wx:for="{{students}}">{{item.name}}-{{item.age}}</view>
+
+<!-- 3、数据监听 -->
+<view>当前计数：{{counter}}</view>
+<button size="mini" bindtap="handleBtnClick">+</button>
+<button size="mini" bindtap="handleBtnCut">-</button>

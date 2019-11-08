@@ -2,7 +2,45 @@
   "pages": [
     "pages/home/home",
     "pages/about/about",
-    "pages/profile/profile"
+    "pages/profile/profile",
+    "pages/category/category"
   ],
+  "window": {
+    "navigationBarBackgroundColor": "#ff5777",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "Aliwen小栈",
+    "backgroundColor": "skyblue",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "selectedColor": "#ef7f4e",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "assets/tabbar/home.png",
+        "selectedIconPath": "assets/tabbar/home_active.png"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "text": "分类",
+      "iconPath": "assets/tabbar/category.png",
+      "selectedIconPath": "assets/tabbar/category_active.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "关于",
+        "iconPath": "assets/tabbar/about.png",
+        "selectedIconPath": "assets/tabbar/about_active.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "我的",
+        "iconPath": "assets/tabbar/profile.png",
+        "selectedIconPath": "assets/tabbar/profile_active.png"
+      }
+    ]
+  },
   "sitemapLocation": "sitemap66.json"
 }
